@@ -51,7 +51,7 @@ class testabusive(Resource):
 		bo = 0.0
 		nm = db.child("Appointments").child(user_index).get()
 		res= nm.val()
-		video_frames = res['hrbase64']
+		video_frames = res['spbase64']
 		video_strings = video_frames.split(';')
 		video_strings = video_strings[3:]
 		print(video_strings[0]==video_strings[4])
