@@ -54,7 +54,7 @@ class testabusive(Resource):
 		video_frames = res['spbase64']
 		video_strings = video_frames.split(';')
 		video_strings = video_strings[3:]
-		print(video_strings[0]==video_strings[4])
+		#print(video_strings[0]==video_strings[4])
 		#video_strings = video_strings*2
 		spresult = 0
 		# convert it to a pil image
