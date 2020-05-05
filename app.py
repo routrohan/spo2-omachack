@@ -136,7 +136,7 @@ class testabusive(Resource):
 					# 	res=0
 
 					print("res", str(res))	
-					res = 1
+					#res = 1
 					if res == 1:
 
 							#Red channel operations
