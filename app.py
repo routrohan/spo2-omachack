@@ -181,7 +181,7 @@ class testabusive(Resource):
 			spresult = spresult/spcount
 			spresult = round(spresult,2)
 		else:
-			spresult = "no hand"
+			spresult = "Finger not recognised"
 		
 		db.child("Appointments").child(user_index).update({"spo2":spresult})
 		db.child("Consultation").child(user_index).update({"fspo2":spresult})
