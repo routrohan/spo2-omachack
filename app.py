@@ -53,7 +53,7 @@ class testabusive(Resource):
 		res= nm.val()
 		video_frames = res['spbase64']
 		video_strings = video_frames.split(';')
-		video_strings = video_strings[3:]
+		video_strings = video_strings[1:]
 		#print(video_strings[0]==video_strings[4])
 		#video_strings = video_strings*2
 		spresult = 0
