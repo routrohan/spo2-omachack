@@ -129,7 +129,7 @@ class testabusive(Resource):
 					# 	res=0
 
 					print("res", str(res))	
-					#res = 1
+					res = 1
 					if res == 1:
 
 							#Red channel operations
@@ -167,7 +167,7 @@ class testabusive(Resource):
 		
 			
 		result = result/length
-		result = 1
+		#result = 1
 		print("final res value: "+ str(result))
 		print("positive hand counts: "+ str(spcount))
 
