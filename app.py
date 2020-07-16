@@ -18,14 +18,13 @@ class testabusive(Resource):
 		
 		
 		config = {
-								"apiKey": "AIzaSyDfnSG9PFjBl-7WzfqNXEsmeUADZUjoNbY",
-							    "authDomain": "televital-omachack-c1db6.firebaseapp.com",
-							    "databaseURL": "https://televital-omachack-c1db6.firebaseio.com",
-							    "projectId": "televital-omachack-c1db6",
-							    "storageBucket": "televital-omachack-c1db6.appspot.com",
-							    "messagingSenderId": "1016790452467",
-							    "appId": "1:1016790452467:web:23c537c7dba61f8a83cf86",
-							    "measurementId": "G-DF84JXFTQH"
+								"apiKey": "AIzaSyBE8GNzn3pGAGo4yi0ElbF3pWohqDY3pWA",
+  								"authDomain": "project-televital-3ac48.firebaseapp.com",
+								"databaseURL": "https://project-televital-3ac48.firebaseio.com",
+								"projectId": "project-televital-3ac48",
+								"storageBucket": "project-televital-3ac48.appspot.com",
+								"messagingSenderId": "706087011192",
+								"appId": "1:706087011192:web:05d50bcb47b13eff0b3e8d"
 
 
 		}
