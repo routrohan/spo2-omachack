@@ -1,17 +1,20 @@
-This is a toy project for learning how to use a couple of python libraries. 
+This is the back-end code built for the Award project "TeleVital" that won CODE19 Hackathon organised by The MJ Foundation.
+### Note:
+
+1) The database credentials given are dummy values.
+2) Citation for mathematical algo : [Paper Link](http://ieeexplore.ieee.org/document/6959086).
 
 ### What it does
 
-1) The web client sends video stream data (from the user's webcam) to a flask server using socketio
-2) The server does some processing on the video stream
-3) The client receives the processed video stream and re-displays the results in a different frame
+1) The code expects a frame and performs certain mathematical operations to calculate the oxygen concentration in the blood.
+2) Image should contain a finger at an approximate distance of 3-5 cm from the camera.
+3) It writes the data on to the firebase database.
 
 In the demo site, the server is simply flipping the image horizontally. You could imagine it doing something more sophisticated (e.g. applying some filters), but obviously I was too lazy to implement anything cool.
 
 ### Demo
-[Live Demo](https://python-stream-video.herokuapp.com)
 
-### Setup
+To see the demo, you can check out the project website : [TeleVital](https://televital-monitor.web.app/).
 
 #### Optional
 
@@ -19,7 +22,7 @@ In the demo site, the server is simply flipping the image horizontally. You coul
 - Use a python virtualenv
 
 #### Required
-- `git clone https://github.com/dxue2012/python-webcam-flask.git`
+- `git clone https://github.com/routrohan/spo2-omachack.git
 - `pip install -r requirements.txt`
 
 ### Run locally
@@ -27,7 +30,7 @@ In the demo site, the server is simply flipping the image horizontally. You coul
 IF YOU HAVE HEROKU:
 - `heroku local`
 IF NOT:
-- `gunicorn -k eventlet -w 1 app:app --log-file=-`
+- `python3 app.py`
 
 - in your browser, navigate to localhost:5000
 
